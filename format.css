@@ -1,0 +1,31 @@
+* {
+    user-select: none;
+}
+body {
+    overflow: hidden;
+    cursor: none;
+}
+.back {
+    z-index: -1;
+    top: 0vh;
+    left: -110vw;
+    position: fixed;
+    width: 200vw;
+    height: 100vh;
+}
+.cross {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+}
+.pew {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+}
